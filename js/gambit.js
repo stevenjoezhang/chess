@@ -1,7 +1,7 @@
 /**
  * ChinaChess - in html5
  * http://www.jnzo.com/chess/
- * @ author Ò»Ò¶¹ÂÖÛ
+ * @ author ä¸€å¶å­¤èˆŸ
  * @ mail itlwei@163.com
  * @ QQ 28701884
  */
