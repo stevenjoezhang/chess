@@ -7,7 +7,7 @@
  */
 var com = com || {};
 com.init = function(stype) {
-	com.nowStype = stype || com.getCookie("stype") || "stype1";
+	com.nowStype = stype || com.getCookie("stype") || "stype2";
 	var stype = com.stype[com.nowStype];
 	com.width = stype.width; //画布宽度
 	com.height = stype.height; //画布高度
@@ -810,7 +810,9 @@ com.class.Man = function(key, x, y) {
 		if (this.isShow) {
 			com.ct.save();
 			com.ct.globalAlpha = this.alpha;
-			com.ct.drawImage(com[this.pater].img, com.spaceX * this.x + com.pointStartX, com.spaceY * this.y + com.pointStartY);
+			com.ct.drawImage(com[this.pater].img, com.spaceX * this.x + com.pointStartX, com.spaceY * this.y + com.pointStartY, 48, 48);
+			//com.ct.font = "20px Georgia";
+			//com.ct.fillText("🐸", com.spaceX * this.x + com.pointStartX, com.spaceY * this.y + com.pointStartY);
 			com.ct.restore();
 		}
 	}
